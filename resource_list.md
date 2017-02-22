@@ -99,6 +99,7 @@ All API URLs start with `https://[mystorename.com]/api/v1/`, where `[mystorename
 | [tax_rates](resources/tax_rates.md)	| |
 | [url_redirects](resources/url_redirects.md)	| |
 | [warehouses](resources/warehouses.md)	| |
+| blacklisted_ips [see](http://releasehistory.mysparkpay.com/release-history/HOTFIX-2014-4-Blacklisting-IPs-via-API)| |
 
 ### System
 
