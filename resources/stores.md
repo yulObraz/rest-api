@@ -25,3 +25,25 @@ Sample Model
 	"profile_id": 9
 }
 ```
+
+Update
+______
+http://releasehistory.mysparkpay.com/release-history/HOTFIX-2014-4-Added-fields-to-API
+
+```
+address_line_1
+address_line_2
+city
+state
+country
+postal_code
+phone
+fax
+company_name
+billing_first_name
+billing_last_name
+tech_first_name
+tech_last_name
+tech_email
+tech_same_as_billing
+```
