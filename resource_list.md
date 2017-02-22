@@ -44,7 +44,7 @@ All API URLs start with `https://[mystorename.com]/api/v1/`, where `[mystorename
 | [price_calculators](resources/price_calculators.md) | rules |
 | [price_calculator_rules](resources/price_calculator_rules.md) | modifiers |
 | [price_calculator_rule_modifiers](resources/price_calculator_rule_modifiers.md) | |
-| [products](resources/products.md) | variants, personalizations, related, categories, pricing, attributes, variant\_inventory, pictures, child\_products, shipping\_rate\_adjustments, reviews, custom\_fields |
+| [products](resources/products.md) | variants, personalizations, related, categories, pricing, attributes, variant\_inventory, pictures, child\_products, shipping\_rate\_adjustments, reviews, custom\_fields, add_inventory\*, remove_inventory\* |
 | [product_lists](resources/product_lists.md) | |
 | [product_pictures](resources/product_pictures.md) | |
 | [product_reviews](resources/product_reviews.md) | ratings |
@@ -52,9 +52,9 @@ All API URLs start with `https://[mystorename.com]/api/v1/`, where `[mystorename
 | [product_variants](resources/product_variants.md) | |
 | [shipping_rate_adjustments](resources/shipping_rate_adjustments.md) | |
 | [variant_groups](resources/variant_groups.md) | variants |
-| [variant_inventory](resources/variant_inventory.md) | pricing, variants |
+| [variant_inventory](resources/variant_inventory.md) | pricing, variants, add_inventory\*, remove_inventory\* |
 
-\* Special endpoint
+\* Special endpoints. See: [add/remove](http://releasehistory.mysparkpay.com/release-history/UPDATE-2015-1-API-Added-add-remove-inventory-methods-to-product-and-variant-inventory-resources)
 
 ### Content
 
