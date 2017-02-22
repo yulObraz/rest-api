@@ -95,3 +95,10 @@ Accessible via the `?expand=` parameter or `/api/v1/orders/{id}/{nested_resource
 ### shipments
 
 ### custom_fields
+
+Update
+------
+
+http://releasehistory.mysparkpay.com/release-history/HOTFIX-2015-5-2015-6-2016-1-New-Manufacturer-fields-added-to-REST-API
+
+ManufactuerInvoiceNumber, ManufactuerInvoiceAmount, and ManufacturerInvoicePaid were added
