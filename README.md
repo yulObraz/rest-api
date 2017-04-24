@@ -67,3 +67,11 @@ Support
 -------
 
 All API support for Spark Pay Online Store is handled through the support portal located at [http://support.americommerce.com/hc/en-us](http://support.americommerce.com/hc/en-us). Please submit a ticket there if you have an issue with the API itself or the documentation you find here.
+
+Does exist possibility to get money from example with such syntax?
+-------
+
+```C#
+var cat = Helper.Categories.CreateOrUpdate(new Category() { Name = name, ParentCategoryId = parentId });
+var cats = Helper.Categories.GetList(s => s.Property(p => p.ParentCategoryId).Same(parentId).Property(p => p.Name).Same(name));
+```
